@@ -11,7 +11,7 @@
   }
 
   section .container {
-    width: 1170px;
+    /* width: 1170px; */
     margin: auto;
     display: block;
     padding: 30px 50px;
@@ -88,6 +88,7 @@
   }
   #personal-info {
     padding: 0px 35px;
+    margin-top: 33px;
   }
   h1.section-title {
     font-size: 24px;
@@ -297,4 +298,17 @@
     margin: 0px 5px;
     color: #199cdb;
   }
+  /* digital-cv */
+  .digital-cv {display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-rows: auto 1fr;
+grid-gap: 20px 
+;}
+  .time-line{
+    grid-column: 3 / span 2;
+    grid-row: 1/ span 2;
+  }
+  .cv-digi
+  {padding: 20px;}
 }
+
