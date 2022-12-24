@@ -7,7 +7,6 @@
   }
   .container {
     width: 100%;
-    
   }
 
   .bg-grey {
@@ -294,17 +293,96 @@
     margin: 0px 5px;
     color: #199cdb;
   }
-  /* digital-cv 
-  .digital-cv {display: grid;
+  /* digital-cv */
+  h3 {
+    color: #199cdb;
+    border-bottom: 1px solid gray;
+  }
+  .background {
+    /* width: 100%; */
+    /* height: 100%; */
+    position: absolute;
+    z-index: -1;
+    background-color: blue;
+  }
+  .digital-cv {
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  grid-gap: 20px 
-  ;}
-    .time-line{
-      grid-column: 3 / span 2;
-      grid-row: 1/ span 2;
-    }
-    .cv-digi
-    {padding: 20px;}*/
-}
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    border: 20px solid blue;
+  }
+  /* .time-line {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+  } */
+  .cv-digi {
+    background-color: white;
+    /* margin: 20px; */
+  }
 
+  .content-goals {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid gray;
+    margin-top: 5px;
+    align-items: flex-start;
+  }
+  .content-goals svg {
+    width: 30px;
+    align-self: center;
+  }
+  .content-goals p {
+    padding-left: 10px;
+  }
+
+  .content-team {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .content-team svg {
+    width: 100px;
+    height: 30px;
+    align-self: center;
+  }
+  .content-team p {
+    padding-left: 10px;
+  }
+  .scopes {
+    grid-row: 2 / span 1;
+  }
+  .content-scopes {
+    display: flex;
+  }
+  .content-scopes h6 {
+    font-size: 20px;
+  }
+  .in,
+  .out {
+    padding: 5px 20px 0px 5px;
+  }
+
+  .content-primary {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-primary svg {
+    width: 20px;
+    align-self: center;
+  }
+  .content-primary p {
+    padding-left: 5px;
+  }
+  .content-timeline {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .content-timeline p {
+    padding-left: 0px;
+  }
+  .content-timeline svg {
+    width: 50px;
+  }
+}
