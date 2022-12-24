@@ -12,13 +12,13 @@
 
   * {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
   }
   section .container {
     /* width: 1170px; */
     margin: auto;
     display: block;
-    padding: 30px 50px;
+    /* padding: 30px 50px; */
   }
   /* Banner */
   .name-banner {
@@ -234,7 +234,7 @@
   }
   /* Project */
   .project-item {
-    margin: 20px 20px;
+    margin: 20px 0px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -285,6 +285,7 @@
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   #footer ul li {
     margin: 0px 20px;
